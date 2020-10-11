@@ -7,6 +7,13 @@ sheeps[sheeps.index(big_sheep)] = 8
 print('After sheering, here is my flock:')
 print(sheeps)
 
+# # Cách 2:
+# max_number = sheeps[0]
+# for sheep in sheeps:
+#     if max_number < sheep:
+#         max_number = sheep
+# print(max_number)
+
 
 # 2.4 - sheeps have increased their size
 new_flock = sheeps[:]
